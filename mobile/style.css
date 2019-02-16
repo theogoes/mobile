@@ -1,0 +1,304 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container {
+   width: 100%;
+   background-color: rgb(0,1,2);
+ }
+#cabecalho{
+	width: 100%;
+	height: 73px;
+	display: flex;
+	background-color: rgb(0 , 0 ,0);
+	flex-direction: column;
+	position: fixed;
+}
+#cabecalhoL1{
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+}
+#logo{
+	width: 100%;
+	padding-left: 13%;
+	padding-top: 2%;
+}
+#logo img{
+ 	height: 30px;
+}
+#menu{
+	color: rgb(204,163,0);
+
+	font-size: 24px;
+}
+#cabecalhoL2{
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	height: 20px;
+}
+#cabecalhoL2interno{
+	width: 100%;
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	align-items: stretch;
+}
+#divTxtBuscar{
+	width: 100%;
+	padding-left: 5%;
+}
+input[name="buscar"]{
+	width: 100%;
+	outline: none;
+	background-color: rgb(0,0,0);
+	border-color: rgb(204,163,0);
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	color: rgb(255,255,255);
+}
+#btnBuscar{
+	display: none;
+}
+input[name="Btnbuscar"]{
+	border-bottom-right-radius: 8px;
+	border-top-right-radius: 8px;
+	color: rgb(255,255,255);
+	background-color: rgb(0,0,0);
+	border-left: none;
+	border-color: rgb(204,163,0);
+}
+#logo{
+	width: 100%;
+}
+#menu{
+	color: white;
+	font-size: 24px;
+}
+label{
+	cursor: pointer;
+}
+
+#l1{
+	width: 100%;
+	height: 2px;
+	background-color: rgb(204, 163, 0);
+	margin-top: 11px;
+}
+.promocao{
+	display: flex;
+	background-color: rgb(0,0,0);
+	justify-content: center;
+	padding-top: 35%;
+	padding-bottom: 15%;
+}
+.promocao img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+/*Início Produtos*/
+.produtos{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(0,0,0);
+}
+.umproduto{
+	display: flex;
+	height: 150px;
+	width: 100%;
+	background-color: rgb(0,0,0);
+	margin: 5px;
+	border-top:  2px solid rgb(204,163,0);
+	border-bottom:  2px solid rgb(204,163,0);
+	padding: 10px; /*para dentro*/
+	text-align: left;
+	font-size: 12px;
+	line-height: 30px;
+
+}
+.arrumaimg{
+	margin-top: -5px;
+}
+.nome-produto{
+	margin-top: 15px;
+	padding-left: 10px;
+	color: rgb(204,163,0);
+	font-size: 15px;
+}
+.preco-real{
+	padding-left: 10px;
+	color: #7b7b7b;
+	text-decoration: line-through;
+}
+.preco-comdesconto{
+	padding-left: 10px;
+	color: rgb(250,250,250);
+	font-size: 15px;
+}
+.preco-parcelado{
+	padding-left: 10px;
+	color: rgb(250,250,250);
+}
+/*Fim dos produtos*/
+/*rodape*/
+img[name="media"]{
+	
+	height: 40px;
+	display: inline-flex;
+	margin-left: 15%;
+	margin-top: 10px;
+}
+.mapa{
+	line-height: 40px;
+	padding-left: 10px;
+}
+.mapa a{
+	color: rgb(250,250,250);
+}
+.mapa hover:{
+	color: rgb(200,200,200);
+}
+.infos{
+	padding-top: 10PX;
+	line-height: 10%;
+	padding-bottom: 10PX;
+}
+
+/*Fim rodape*/
+/*Produto-Detalhe*/
+.produto{
+ display:flex ;
+}
+.nome{
+	line-height: 50px;
+	font-size: 110%;
+	color: rgb(204,163,0);
+	padding-left: 10px;
+}
+.preco{
+	line-height: 50px;
+	padding-top: 10%;
+	padding-left: 10px;
+}
+.parcela{
+	line-height: 30px;
+	font-size: 90%;
+	padding-bottom: 10%;
+	padding-left: 10px;
+}
+.descricao{
+	line-height: 30px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.comprar{
+	text-decoration: none;
+	color: rgb(255,255,255);
+	padding-left: 10px;
+}
+
+/*Fim produto-detalhe*/
+/*Cadastro*/
+.cadastro{
+	width: 100vw;
+ 	height: 100vh;
+	background: rgb(0,0,0);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center
+}
+.box{
+	width: 300px;
+	height: 400px;
+	border: 2px solid rgb(204,163,0);
+	align-items: center;
+}
+.tit{
+	padding-top:20%;
+	padding-bottom: 20%;
+	font-family: Luminari, fantasy;
+	font-size: 150%;
+}
+
+.camp{
+	margin-right: 10%;
+}
+.sub{
+	margin-top: 5%;
+	width: 55%;
+	margin-right: 40%;
+	border-radius: 10px;
+	color: rgb(204,163,0);
+	background-color: rgb(0,0,0);
+	border: 2px solid;
+}
+
+.cadastrese{
+	text-decoration: none;
+	color: rgb(204,163,0);
+	padding-left: 10%;
+}
+.cadastre-se hover:{
+	color: rgb(200,200,200);
+
+}
+/* fim Cadastro*/
+/*nos*/
+.tito{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-size: 120%;
+}
+.nos{
+	line-height: 30px;
+	padding-bottom: 10%;
+}
+
+/* fim nos*/
+body { font-family: Verdana; background-color: rgb(0,0,0); color: rgb(250,250,250); }
+table { border-collapse: collapse; width: 100%; }
+th, td { padding: 8px; text-align: left; border-bottom: 1px solid #ddd;}
+tr:hover {background-color:#c3c3c3;}
+
+
+label { width:90px;float: left; }    	
+input, textarea {font: 1em sans-serif; margin: 5px; border: 1px solid #999; display: block; }	
+button {margin-left: 90px;}
+
+a {text-decoration: none; color: rgb(204,163,0);}
+
+h1 {color:rgb(204,163,0); font-size: 20px;}
+
+/*Menu Slide*/
+.iconeMenu{
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+
+}
+.barraMenu{
+
+	color: rgb(255,255,255);
+	height: 100%;
+	width: 120px;
+	margin-top: 71px;
+	background-color: rgba(0,0,0,0.9);
+    left: -200px; /*Ocultando a barra de menu */
+    position: fixed; /*evitar que seja afetada pela barra de rolagem*/
+    transition: all .25s linear; /*efeito de rolagem lenta */
+}
+.barraMenu a{
+    text-decoration: none;
+    color: rgba(204,163,0);
+    font-size: 12px;
+    line-height: 30px;
+    padding-left: 10%;
+}
+/*Seleciona a barra de menu desde que ela seja precedida pelo checkbox marcado*/
+#chkmenu:checked ~.barraMenu{
+   transform:translate(200px); /*Mover 200px para a direita*/
+
+}
+/*admin*/
